@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:resident_app/account/account.dart';
 import 'package:resident_app/home/home.dart';
 
 class HomePage extends StatelessWidget {
@@ -27,10 +28,9 @@ class HomeView extends StatelessWidget {
       body: SafeArea(
         child: IndexedStack(
           index: selectedTab.index,
-          children: [
-            const HomeBody(),
-            // AccountPage(),
-            Container(),
+          children: const [
+            HomeBody(),
+            AccountPage(),
           ],
         ),
       ),
