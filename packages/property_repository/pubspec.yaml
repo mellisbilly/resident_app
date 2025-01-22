@@ -1,0 +1,17 @@
+name: property_repository
+description: Property repository
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  collection: ^1.18.0
+  property_api_client:
+    path: ../property_api_client
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.7
+  very_good_analysis: ^6.0.0
