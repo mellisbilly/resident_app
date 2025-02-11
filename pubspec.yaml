@@ -20,7 +20,7 @@ dependencies:
     path: packages/property_api_client
   property_repository:
     path: packages/property_repository
-  shared_preferences: 2.3.5
+  shared_preferences: 2.5.2
 
 dev_dependencies:
   bloc_test: 10.0.0
